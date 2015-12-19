@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
 # Author: Jared Hancock
-#   CS 4315 - Data Mining & Information Retrieval
-#   Sprint 2015
 
 # NOTE: if nltk.data error: enter "include nltk.download" in a python terminal
 
@@ -13,8 +11,8 @@ from collections import Counter
 from nltk import PorterStemmer
 
 
-API_KEY = 'AIzaSyACR0s18hhnQD52hqGGEMEMO3ESpHh65k4'
-CX_KEY = '014898526197053737379:5hqojlrwfhc'
+API_KEY = 'insert key here'
+CX_KEY = 'insert key here'
 STOPS = [word.encode('utf-8') for word in stopwords.words('english')]
 
 class Result:
